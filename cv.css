@@ -1,0 +1,21 @@
+.right{
+    float: right;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+    font-weight: bold;
+}
+
+h3{
+    text-align: left;
+    font-weight: bold;
+
+}
+
+hr{
+    width: 120%;
+    height: 1mm;
+    background: black;
+}
