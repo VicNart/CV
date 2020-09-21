@@ -20,7 +20,7 @@ h3{
 }
 
 hr{
-    width: 100%;
+    width: fit-content;
     height: 1px;
     background-color: black;
 }
