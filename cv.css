@@ -15,7 +15,7 @@ h3{
 }
 
 hr{
-    width: 120%;
-    height: 1mm;
+    width: 100px;
+    height: 10px;
     background: black;
 }
