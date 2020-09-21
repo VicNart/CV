@@ -1,9 +1,9 @@
-.right{
+.Right{
     float: right;
     font-weight: bold;
 }
 
-.left{
+.Left{
     float: left;
     font-weight: bold;
 }
@@ -17,5 +17,5 @@ h3{
 hr{
     width: 100px;
     height: 10px;
-    background: black;
+    background-color: blue;
 }
