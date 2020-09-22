@@ -1,13 +1,16 @@
 body {
+    border: 2px solid black;
+    padding: 25px;
     background-image: url("images/Ashesi_Admissions_Banner_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
     background-color: #cccccc;
    }
+
 html {
     font: 1em sans-serif; 
-}
+   }
 
 
 .form {
@@ -20,7 +23,7 @@ html {
     display: flex;
     flex-flow: column wrap;
     justify-content: left;
-}
+   }
 
 
 
