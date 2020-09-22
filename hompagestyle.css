@@ -2,3 +2,20 @@ body{
     background-image: url(Ashesiview.jpg);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+html {
+    font: 1em sans-serif;
+  }
+
+
+  .form-box {
+    background-color: var(--content-bg);
+    color: var(--content-text);
+    width: 80%;
+    border: 5px solid rgb(192, 155, 116);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+  }
