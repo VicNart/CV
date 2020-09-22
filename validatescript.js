@@ -17,6 +17,8 @@ function valuestorage() {
     
 }
 
+
+
 document.getElementById("name").innerHTML = localStorage.getItem("nam", fullname);
 document.getElementById("gender").innerHTML = localStorage.getItem("gen", gend);
 document.getElementById("phone").innerHTML = localStorage.getItem("pho", phonenum);
