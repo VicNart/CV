@@ -39,6 +39,7 @@ html {
 
 .right{
     border: 5px solid red;
+    color: crimson;
     float:right;
     font-size: xx-large;
     font-weight: bolder;
