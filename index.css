@@ -24,7 +24,7 @@ html {
 
 .form {
     
-    background-image: url("images/form.jpg");
+    background-color: burlywood;
     color: var(--content-text);
     width: 50%;
     border: 5px solid black;
