@@ -5,10 +5,10 @@ body{
 
 html {
     font: 1em sans-serif;
-  }
+}
 
 
-  .form-box {
+.form-box {
     background-color: var(--content-bg);
     color: var(--content-text);
     width: 80%;
@@ -18,4 +18,4 @@ html {
     display: flex;
     flex-flow: column wrap;
     justify-content: left;
-  }
+}
