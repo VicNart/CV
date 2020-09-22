@@ -52,3 +52,11 @@ html {
     font: 20px bold;
 
 }
+
+.form .field input{
+    color: white;
+    float: right;
+    font-size: 20px bold;
+    width: 200px;
+
+}
