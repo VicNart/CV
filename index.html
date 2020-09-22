@@ -8,48 +8,54 @@
     
 </head>
 <body>
-    <header>
-                
-        <div style="text-align: right; height: 40px; padding: 10px 0; background-color: #a8d8a8; font-size: 20px; font-weight: bold;">
-            <nav>
-            
-                <ul>
-                    <a href="cv.html" style="color: black;">Home</a> 
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-
-
-    <form action="cv.html">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br>
-
-        <label for="mname">Middle Name:</label>
-        <input type="text" id="mname" namen="mname"><br>
-        
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br>
-        
-        
-        <label for="gender">Choose Gender:</label>
-        <select name="gender" id="gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option name="Other">Other</option>
-        </select><br>
-        
-        <label for="phone">Enter your phone number:</label><br>
-        <input type="tel" id="phone" name="phone" pattern="[0-9][3]-[0-9][3]-[0-9][4]}"><br>
-
-        <label for="email">Enter your email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        
-        <label for="address">Enter your Address:</label><br>
-        <input type="address" id="address" name="address"><br>
     
-    <input type="submit" value="Click" onclick="valueStorage()">
+
+
+
+    <form id="addForm" class="form-box" method="POST">
+        <div class="field">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+        </div>
+
+        <div class="field">
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname" namen="mname" placeholder="Middle Name"><br>
+        </div>
+
+        <div class="field">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+        </div>
+        
+
+        <div>
+            <label for="gender">Choose Gender:</label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option name="Other">Other</option>
+            </select><br>
+        </div>
+
+        <div class="field">
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9][3]-[0-9][3]-[0-9][4]}" placeholder="Tel. number (xxx-xxx-xxxx)"><br>
+        </div>
+
+        <div class="field">    
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email (username@email.com)"><br>
+        </div>
+
+
+        <div class="field">
+            <label for="address">Enter your Address:</label><br>
+            <input type="address" id="address" name="address" placeholder="Address"><br>
+        </div>
+        
+        <button id="Submit" type="submit" value="add" >Submit</button>
+        <input type="submit" value="Click" onclick="valueStorage()">
     </form>
 
     
