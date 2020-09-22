@@ -48,14 +48,13 @@ html {
 }
 
 
-
-.form .field input{
+h1{
+    border: 8px;
     color: black;
-    float: right;
-    font-size: 20px bold;
-    width: 200px;
-
+    background-color: antiquewhite;
+    border-color: brown;
 }
+
 
 .form .field label {
     font-weight: bold;
