@@ -24,7 +24,7 @@ html {
 
 .form {
     
-    background-color: gray;
+    background-image: url("images/Ashesiview.jpg");
     color: var(--content-text);
     width: 50%;
     border: 5px solid black;
