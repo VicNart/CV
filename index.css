@@ -23,7 +23,8 @@ html {
 
 
 .form {
-    background-color: var(--content-bg);
+    
+    background-color: gray;
     color: var(--content-text);
     width: 50%;
     border: 5px solid black;
