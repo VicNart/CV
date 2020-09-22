@@ -37,6 +37,10 @@ html {
 
 .right{
     float:right;
+    font-size: smaller;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: solid red;
 }
 
   
