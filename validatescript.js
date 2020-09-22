@@ -1,4 +1,4 @@
-function storage{
+ function storage{
     var fname = document.getElementById("fname").nodeValue
     var mname = document.getElementById("mname").nodeValue
     var lname = document.getElementById("lname").nodeValue

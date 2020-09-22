@@ -5,14 +5,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="device-width, initial scale=1.0">
         <link rel="stylesheet" href="cvstyle.css">
-        <script src="validatescript.js"></script>
-        <h1 style="text-align: center;">Name</h1>
-        <h2 style="text-align: center;">Address</h2>
-        <h2 style="text-align: center;">Phone Number</h2>
-        <h2 style="text-align: center;">Email</h2>
+        
+        
     </head>
 
     <body>
+        <h1 style="text-align: center;"><span id="name"></span></span></h1>
+        <h2 style="text-align: center;"><span id="phone"></span></span></h2>
+        <h2 style="text-align: center;"><span id="email"></span></span></h2>
+        <h2 style="text-align: center;"><span id="address"></span></span></h2>
+
+        <script>
+            document.getElementById("name").innerHTML = localStorage.setItem("nam", fullname)
+            document.getElementById("phone").innerHTML = localStorage.setItem("pho", phonenum)
+            document.getElementById("email").innerHTML = localStorage.setItem("mai", mail)
+            document.getElementById("address").innerHTML = localStorage.setItem("addr", addres)
+        </script>
+
+
+
         <h3>EDUCATION</h3>
         
         <hr>
