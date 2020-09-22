@@ -26,12 +26,12 @@ html {
     background-color: var(--content-bg);
     color: var(--content-text);
     width: 50%;
-    border: 10px solid  green;
+    border: 5px solid black;
     margin: 0%;
     padding: 0%;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    align-items: center;
    }
 
 
