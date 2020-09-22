@@ -14,8 +14,7 @@ function valuestorage() {
     localStorage.setItem("mai", mail);
     localStorage.setItem("addr", addres);
 
-    return false;
-
+    
 }
 
 document.getElementById("name").innerHTML = localStorage.setItem("nam", fullname);
