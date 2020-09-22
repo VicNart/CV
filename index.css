@@ -46,6 +46,9 @@ html {
 
 }
 
-.left{
-    float: left;
+.form .field label{
+    color: black;
+    margin-left: 10px;
+    font: 14px bold;
+
 }
