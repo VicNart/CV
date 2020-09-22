@@ -1,8 +1,7 @@
-body{
-    background-image: url(Ashesiview.jpg);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
+body {
+    background-image: url("images/Ashesiview.jpg");
+    background-color: #cccccc;
+   }
 html {
     font: 1em sans-serif; 
 }
