@@ -1,11 +1,11 @@
- function storage{
+ function storage() {
     var fname = document.getElementById("fname").nodeValue
     var mname = document.getElementById("mname").nodeValue
     var lname = document.getElementById("lname").nodeValue
     var gend = document.getElementById("gender").Value
     var phonenum = document.getElementById("phone").Value
     var mail = document.getElementById("email").Value
-    var addres =; document.getElementById("address").Value
+    var addres = document.getElementById("address").Value
     var fullname = fname + "" + mname + "" + lname
 
     localStorage.setItem("nam", fullname)
