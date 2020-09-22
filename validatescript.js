@@ -1,4 +1,4 @@
- function storage() {
+ function valuestorage() {
     var fname = document.getElementById("fname").Value;
     var mname = document.getElementById("mname").Value;
     var lname = document.getElementById("lname").Value;
