@@ -17,8 +17,8 @@ function valuestorage() {
     
 }
 
-document.getElementById("name").innerHTML = localStorage.setItem("nam", fullname);
-document.getElementById("gender").innerHTML = localStorage.setItem("gen", gend);
-document.getElementById("phone").innerHTML = localStorage.setItem("pho", phonenum);
-document.getElementById("email").innerHTML = localStorage.setItem("mai", mail);
-document.getElementById("address").innerHTML = localStorage.setItem("addr", addres);
+document.getElementById("name").innerHTML = localStorage.getItem("nam", fullname);
+document.getElementById("gender").innerHTML = localStorage.getItem("gen", gend);
+document.getElementById("phone").innerHTML = localStorage.getItem("pho", phonenum);
+document.getElementById("email").innerHTML = localStorage.getItem("mai", mail);
+document.getElementById("address").innerHTML = localStorage.getItem("addr", addres);
